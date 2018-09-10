@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@babel%2ftransform-runtime: Not found
+  Error: https://registry.yarnpkg.com/@babel%2ftransform-runtime: Not found1
       at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:64202:18)
       at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:137468:22)
       at emitTwo (events.js:126:13)
