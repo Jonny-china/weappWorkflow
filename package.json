@@ -1,0 +1,42 @@
+{
+  "name": "weapp-workflow",
+  "version": "0.0.1",
+  "repository": "https://github.com/Jonny-china/weappWorkflow.git",
+  "author": "Jonny <c1043870470@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cleatem": "gulp --gulpfile build/build-dev.js cleanIconTem",
+    "dev": "cross-env NODE_ENV=development gulp --gulpfile build/build-dev.js dev",
+    "clear": "gulp --gulpfile build/build-prod.js clear",
+    "prebuild": "gulp --gulpfile build/build-prod.js clear",
+    "build": "cross-env NODE_ENV=production gulp --gulpfile build/build-prod.js build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jsonminify": "^1.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "lodash": "^4.17.10",
+    "postcss-assets": "^5.0.0",
+    "postcss-px-to-viewport": "^0.0.3",
+    "through-gulp": "^0.5.0",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {}
+}
